@@ -1,16 +1,33 @@
 import sys
 import Adafruit_DHT
 import time
-import requests
+import urllib.request
 import json
 
-while True:
-    humidity, temperature = Adafruit_DHT.read_retry(11, 4)
-    data = {'humidity':humidity,'temperature':temperature}
-    freedomTemp = (temperature * 9/5) + 32;
-    json_data = json.dumps(data)
-    # r = requests.post('http://192.168.0.8:1880/payload',json_data)
-    print(humidity,freedomTemp)
-    print('Temp: {0:0.1f} C  Humidity: {1:0.1f} '.format(freedomTemp, humidity))
-    time.sleep(2)
+with open('/home/pi/Temp/config.json') as json_file:
+    data = json.load(json_file)
+    url = data['url']
+    source_id = data['source_id']
+    delay = data['seconds_between_send']
+    key = data['key']
+    # print(data['url'])
 
+    while True:
+        humidity, temperature = Adafruit_DHT.read_retry(11, 4)
+        # humidity = 69
+        # temperature = 20
+        data = {'humidity': humidity, 'temp': temperature,
+                'source_id': source_id, 'key': key}
+        print('SENDING LOG: Temp: {0:0.1f} C  Humidity: {1:0.1f} '.format(
+            temperature, humidity))
+        # freedomTemp = (temperature * 9/5) + 32
+        json_data = json.dumps(data)
+
+        try:
+            x = urllib.request.urlopen(
+                url+'/templog', bytes(
+                    urllib.parse.urlencode(data), encoding="utf-8"))
+        except Exception as e:
+            print("ERROR: " + str(e))
+
+        time.sleep(delay)
