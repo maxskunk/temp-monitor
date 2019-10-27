@@ -6,8 +6,8 @@ from db import db
 
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://ponyexpress_dev:qFslvtqXSO3U441OmW79M3Nh7M@mysql.zokyamedia.com/ponyexpress_dev'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///tmp/test.db'
+# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://ponyexpress_dev:<pass>@mysql.zokyamedia.com/ponyexpress_dev'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['PROPAGATE_EXCEPTIONS'] = True
 
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     db.init_app(app)
     # app.run(port=5000, debug=True)
 
-    app.run(port=5000, debug=True, host='0.0.0.0')
+    app.run(port=3099, debug=False, host='0.0.0.0')

@@ -9,12 +9,12 @@ import functools
 class TempEntry(Resource):
     parser = reqparse.RequestParser()
     parser.add_argument('temp',
-                        type=int,
+                        type=float,
                         required=True,
                         help="Temp is needed"
                         )
     parser.add_argument('humidity',
-                        type=int,
+                        type=float,
                         required=True,
                         help="No Humidity provided"
                         )
@@ -41,7 +41,7 @@ class TempEntry(Resource):
         user = TempLogModel(data['temp'], data['humidity'],
                             data['key'], data['source_id'])
         user.save_to_db()
-
+        print("Logged Data from "+data['source_id']+": "+str(data['temp'])+"c "+str(data['humidity'])+"%")
         # try:
         #     toybox.save_to_db()
         # except exc.SQLAlchemyError as e:
@@ -51,7 +51,8 @@ class TempEntry(Resource):
         return {"message": "Temp Added Successfully."}, 201
 
     def get(self):
-        return {'history': [x.json() for x in TempLogModel.find_all()]}
+        # return {'history': [x.json() for x in TempLogModel.find_all()]}
+        return {'history': TempLogModel.find_all()}
         # row = TempLogModel.find_by_source_id("ant2")
         # if row:
         #     return row.json()

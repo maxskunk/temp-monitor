@@ -40,19 +40,10 @@ class TempLogModel(db.Model):
     @classmethod
     def find_all(cls):
         comparisonDate = datetime.now() - timedelta(days=5)
-        return cls.query.filter(cls.time_logged >= comparisonDate).all()
+        data = []
+        groups = cls.query.group_by(cls.source_id)
+        
+        for group in groups:
+            data.append({group.source_id: [x.json() for x in cls.query.filter(cls.time_logged >= comparisonDate).filter_by(source_id=group.source_id)]})
 
-    @classmethod
-    def find_by_email(cls, email):
-        return cls.query.filter_by(email=email).first()
-
-    @classmethod
-    def find_by_go_id(cls, _id):
-        return cls.query.filter_by(go_id=_id).first()
-
-    @classmethod
-    def user_registered(cls, _id):
-        if cls.query.filter_by(go_id=_id).first():
-            return True
-        else:
-            return False
+        return data
