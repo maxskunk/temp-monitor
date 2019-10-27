@@ -49,3 +49,10 @@ class TempEntry(Resource):
         #     return {"message": "An error occurred creating the toybox."}, 500
 
         return {"message": "Temp Added Successfully."}, 201
+
+    def get(self):
+        return {'history': [x.json() for x in TempLogModel.find_all()]}
+        # row = TempLogModel.find_by_source_id("ant2")
+        # if row:
+        #     return row.json()
+        # return {'message': 'Row not found'}, 404

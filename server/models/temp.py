@@ -1,5 +1,5 @@
 from db import db
-from datetime import datetime
+from datetime import datetime, timedelta
 import uuid
 
 
@@ -24,6 +24,23 @@ class TempLogModel(db.Model):
     def save_to_db(self):
         db.session.add(self)
         db.session.commit()
+
+    def json(self):
+        # return {'name': self.name, 'items': [item.json() for item in self.items.all()]}
+        return {
+            'source_id': self.source_id,
+            'time_logged': self.time_logged.strftime('%Y-%m-%dT%H:%M:%S'),
+            'temp': self.temp,
+            'humidity': self.humidity}
+
+    @classmethod
+    def find_by_source_id(cls, source_id):
+        return cls.query.filter_by(source_id=source_id).first()
+
+    @classmethod
+    def find_all(cls):
+        comparisonDate = datetime.now() - timedelta(days=5)
+        return cls.query.filter(cls.time_logged >= comparisonDate).all()
 
     @classmethod
     def find_by_email(cls, email):
