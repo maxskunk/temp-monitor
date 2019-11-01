@@ -583,6 +583,480 @@ export class AppComponent {
             "time_logged": "2019-10-28T21:15:41",
             "temp": 23,
             "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T21:30:42",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T21:45:43",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T22:00:43",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T22:15:44",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T22:30:45",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T22:45:45",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T23:00:46",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T23:15:47",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T23:30:47",
+            "temp": 23,
+            "humidity": 21
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-28T23:45:48",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T00:00:49",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T00:15:49",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T00:30:50",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T00:45:50",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T01:00:51",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T01:15:52",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T01:30:52",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T01:45:53",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T02:00:54",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T02:15:57",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T02:30:57",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T02:45:58",
+            "temp": 23,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T03:00:59",
+            "temp": 22,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T03:15:59",
+            "temp": 22,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T03:31:00",
+            "temp": 22,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T03:46:00",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T04:01:01",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T04:16:02",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T04:31:02",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T04:46:03",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T05:01:04",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T05:16:07",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T05:31:08",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T05:46:08",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T06:01:09",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T06:16:09",
+            "temp": 22,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T06:31:13",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T06:46:13",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T07:01:14",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T07:16:15",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T07:31:15",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T07:46:16",
+            "temp": 21,
+            "humidity": 18
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T08:01:16",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T08:16:17",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T08:31:18",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T08:46:18",
+            "temp": 21,
+            "humidity": 19
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T09:01:19",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T09:16:20",
+            "temp": 21,
+            "humidity": 15
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T09:31:23",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T09:46:24",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T10:01:24",
+            "temp": 21,
+            "humidity": 14
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T10:16:25",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T10:31:25",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T10:46:26",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T11:01:27",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T11:16:27",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T11:31:28",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T11:46:29",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T12:01:29",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T12:16:30",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T12:31:30",
+            "temp": 21,
+            "humidity": 17
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T12:46:31",
+            "temp": 21,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T13:01:32",
+            "temp": 21,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T13:16:33",
+            "temp": 21,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T13:31:33",
+            "temp": 22,
+            "humidity": 13
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T13:46:34",
+            "temp": 22,
+            "humidity": 14
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T14:01:34",
+            "temp": 22,
+            "humidity": 13
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T14:16:35",
+            "temp": 22,
+            "humidity": 14
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T14:31:36",
+            "temp": 22,
+            "humidity": 15
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T14:46:36",
+            "temp": 23,
+            "humidity": 20
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T15:01:37",
+            "temp": 23,
+            "humidity": 15
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T15:16:38",
+            "temp": 23,
+            "humidity": 14
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T15:31:38",
+            "temp": 23,
+            "humidity": 13
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T15:46:39",
+            "temp": 23,
+            "humidity": 14
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T16:01:39",
+            "temp": 23,
+            "humidity": 13
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T16:16:40",
+            "temp": 23,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T16:31:41",
+            "temp": 23,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T16:46:41",
+            "temp": 23,
+            "humidity": 12
+          },
+          {
+            "source_id": "claustial1",
+            "time_logged": "2019-10-29T17:01:42",
+            "temp": 23,
+            "humidity": 13
           }
         ]
       },
@@ -1505,6 +1979,480 @@ export class AppComponent {
             "time_logged": "2019-10-28T21:13:22",
             "temp": 11,
             "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T21:28:22",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T21:43:23",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T21:58:24",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T22:13:24",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T22:28:25",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T22:43:26",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T22:58:26",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T23:13:27",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T23:28:28",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T23:43:29",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-28T23:58:29",
+            "temp": 11,
+            "humidity": 27
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T00:13:30",
+            "temp": 11,
+            "humidity": 27
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T00:28:31",
+            "temp": 11,
+            "humidity": 27
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T00:43:31",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T00:58:32",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T01:13:33",
+            "temp": 11,
+            "humidity": 27
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T01:28:33",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T01:43:34",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T01:58:35",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T02:13:36",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T02:28:36",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T02:43:37",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T02:58:38",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T03:13:39",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T03:28:39",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T03:43:40",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T03:58:43",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T04:13:44",
+            "temp": 11,
+            "humidity": 27
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T04:28:45",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T04:43:45",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T04:58:46",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T05:13:47",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T05:28:48",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T05:43:48",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T05:58:49",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T06:13:50",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T06:28:51",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T06:43:54",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T06:58:55",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T07:13:58",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T07:28:59",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T07:43:59",
+            "temp": 11,
+            "humidity": 26
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T07:59:00",
+            "temp": 11,
+            "humidity": 25
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T08:14:03",
+            "temp": 11,
+            "humidity": 25
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T08:29:04",
+            "temp": 11,
+            "humidity": 25
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T08:44:05",
+            "temp": 11,
+            "humidity": 24
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T08:59:06",
+            "temp": 11,
+            "humidity": 24
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T09:14:06",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T09:29:07",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T09:44:08",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T09:59:09",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T10:14:10",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T10:29:10",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T10:44:14",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T10:59:14",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T11:14:15",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T11:29:18",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T11:44:21",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T11:59:22",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T12:14:23",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T12:29:27",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T12:44:28",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T12:59:28",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T13:14:29",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T13:29:30",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T13:44:31",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T13:59:31",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T14:14:32",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T14:29:33",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T14:44:36",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T14:59:37",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T15:14:38",
+            "temp": 10,
+            "humidity": 23
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T15:29:38",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T15:44:40",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T15:59:42",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T16:14:42",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T16:29:43",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T16:44:44",
+            "temp": 10,
+            "humidity": 22
+          },
+          {
+            "source_id": "garage",
+            "time_logged": "2019-10-29T16:59:44",
+            "temp": 10,
+            "humidity": 22
           }
         ]
       }
@@ -1513,32 +2461,62 @@ export class AppComponent {
   constructor() {
 
   }
+
+  private formatAMPM(date) {
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? '0' + minutes : minutes;
+    var strTime = hours + ':' + minutes + ' ' + ampm;
+    return strTime;
+  }
+
+  private convertToF(num: number) {
+    return (num * 9 / 5) + 32
+  }
+
+  private dayArray: string[] = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
+
+
   ngOnInit() {
-    const clasutualData = this.importData['history'][0];
-    const garageData = this.importData['history'][1]['garage'];
+    const garageData = this.importData['history'][0]['claustial1'];
     const garageLabels = garageData.map((row: any) => {
-      return row.time_logged;
+      const currentDate = new Date(row.time_logged)
+      return this.dayArray[currentDate.getDay()] + ' ' + this.formatAMPM(currentDate);
     });
-    const garageValues = garageData.map((row: any) => {
-      return row.temp;
+    const garageTempValues = garageData.map((row: any) => {
+      return this.convertToF(row.temp);
+    });
+    const garageHumidtyValues = garageData.map((row: any) => {
+      return row.humidity;
     });
     const labels = this.importData;
-    console.log("MYRA: " + JSON.stringify(garageData))
     this.data = {
       labels: garageLabels,
       datasets: [
         {
-          data: garageValues,
-          backgroundColor: [
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56"
-          ],
-          hoverBackgroundColor: [
-            "#FF6384",
-            "#36A2EB",
-            "#FFCE56"
-          ]
+          label: 'Temp',
+          data: garageTempValues,
+          fill: false,
+          borderColor: '#FF0000',
+
+          // backgroundColor: [
+          //   "#FF6384",
+          //   "#36A2EB",
+          //   "#FFCE56"
+          // ],
+          // hoverBackgroundColor: [
+          //   "#FF6384",
+          //   "#36A2EB",
+          //   "#FFCE56"
+          // ]
+        }, {
+          label: 'Humidity',
+          data: garageHumidtyValues,
+          fill: false,
+          borderColor: "#00FF00"
         }]
     };
     this.options = {
@@ -1548,9 +2526,9 @@ export class AppComponent {
 
       tooltipEvents: [],
       tooltips: {
-        intersect: true
+        intersect: false,
       },
-      showTooltips: true,
+      showTooltips: false,
       title: {
         display: true,
         text: 'My Title',

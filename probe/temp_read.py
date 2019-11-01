@@ -10,17 +10,15 @@ with open('/home/pi/Temp/config.json') as json_file:
     source_id = data['source_id']
     delay = data['seconds_between_send']
     key = data['key']
-    # print(data['url'])
 
     while True:
-        humidity, temperature = Adafruit_DHT.read_retry(11, 4)
-        # humidity = 69
-        # temperature = 20
-        data = {'humidity': humidity, 'temp': temperature,
+        humidity, temperature = Adafruit_DHT.read_retry(22, 4)
+
+        data = {'humidity': round(humidity, 1), 'temp': round(temperature, 1),
                 'source_id': source_id, 'key': key}
         print('SENDING LOG: Temp: {0:0.1f} C  Humidity: {1:0.1f} '.format(
             temperature, humidity))
-        # freedomTemp = (temperature * 9/5) + 32
+
         json_data = json.dumps(data)
 
         try:
