@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ChartModule } from 'primeng/chart';
+import { TempLogService } from './service/temp-log.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -10,9 +12,10 @@ import { ChartModule } from 'primeng/chart';
   ],
   imports: [
     BrowserModule,
-    ChartModule
+    ChartModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [TempLogService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
