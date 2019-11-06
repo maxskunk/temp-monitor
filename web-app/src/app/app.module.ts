@@ -6,6 +6,7 @@ import { ChartModule } from 'primeng/chart';
 import { TempLogService } from './service/temp-log.service';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent

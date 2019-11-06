@@ -9,7 +9,7 @@ import { retry, catchError, tap } from 'rxjs/operators';
 export class TempLogService {
 
   // Define API
-  apiURL = 'http://192.168.0.113:3099/templog';
+  apiURL = 'http://75.71.20.33:3099/templog';
 
   constructor(public http: HttpClient) {
   }

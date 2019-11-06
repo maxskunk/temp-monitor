@@ -1,2 +1,10 @@
-<p-chart type="line" [data]="data"></p-chart>
+<div *ngFor="let chart of data" class="chartConatiner">
+  <h3>{{chart.label}}</h3>
+  <h1>Temp: {{chart.lastTemp}}</h1>
+  <h1>Humidity: {{chart.lastHum}}</h1>
+  <h3>Min: {{chart.minTemp}}</h3>
+  <h3>Max: {{chart.maxTemp}}</h3>
+  <p-chart type="line" [data]="chart.chartData"></p-chart>
+</div>
+
 <!-- (onDataSelect)="selectData($event)" -->
