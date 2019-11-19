@@ -59,9 +59,10 @@ export class AppComponent {
         const garageHumidtyValues = garageData.map((row: any) => {
           return row.humidity;
         });
-
-        const lastTemp = this.convertToF(garageData.pop().temp);
-        const lastHum = garageData.pop().humidity;
+        const lastReading = garageData.pop();
+        const lastTemp = this.convertToF(lastReading.temp);
+        console.log("GARAGE DATA: " + JSON.stringify(garageData))
+        const lastHum = lastReading.humidity;
         console.log("TEMP: " + lastTemp);
         // const labels = this.res;
         this.data.push({

@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { ChartModule } from 'primeng/chart';
 import { TempLogService } from './service/temp-log.service';
 import { HttpClientModule } from '@angular/common/http';
+import { MatCardModule } from '@angular/material/card';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -14,7 +16,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     ChartModule,
-    HttpClientModule
+    HttpClientModule,
+    MatCardModule,
+    BrowserAnimationsModule
   ],
   providers: [TempLogService],
   bootstrap: [AppComponent]
