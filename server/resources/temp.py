@@ -2,9 +2,24 @@ from flask_restful import Resource, reqparse
 from models.temp import TempLogModel
 from sqlalchemy import exc
 import functools
+from flask import request
 
-# http://flask.pocoo.org/snippets/125/
+def authorized(func):
+    @functools.wraps(func)
+    def function_that_runs_func(*args, **kwargs):
+        auth_token = request.headers.get('Authorization')
+        e = 'pasta'
+        return {'message': 'Token Invalid: {}'.format(e)}, 401
+        # try:
+        #     # decoded_token = auth.verify_id_token(auth_token)
+        #     # uid = decoded_token['uid']
+        # except Exception as e:
+        #     return {'message': 'Token Invalid: {}'.format(e)}, 401
 
+        result = func(*args, **kwargs)
+        
+        return result
+    return function_that_runs_func
 
 class TempEntry(Resource):
     parser = reqparse.RequestParser()
@@ -49,7 +64,7 @@ class TempEntry(Resource):
         #     return {"message": "An error occurred creating the toybox."}, 500
 
         return {"message": "Temp Added Successfully."}, 201
-
+    # @authorized
     def get(self):
         # return {'history': [x.json() for x in TempLogModel.find_all()]}
         return {'history': TempLogModel.find_all()}

@@ -6,7 +6,6 @@ from db import db
 
 
 app = Flask(__name__)
-# app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://ponyexpress_dev:<pass>@mysql.zokyamedia.com/ponyexpress_dev'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///data.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['PROPAGATE_EXCEPTIONS'] = True
@@ -19,15 +18,9 @@ migrate = Migrate(app, db)
 def create_tables():
     db.create_all()
 
-
-# api.add_resource(Toybox, '/toybox/<string:name>')
+# Endpoints
 api.add_resource(TempEntry, '/templog')
-# api.add_resource(AvailableBadge, '/available_badge')
-# api.add_resource(AvailableBadgeList, '/available_badges')
 
-# Badges
-# api.add_resource(BadgeInstanceList, '/sash')
-# api.add_resource(BadgeInstance, '/badge')
 
 
 @app.after_request
