@@ -37,11 +37,12 @@ export class AppComponent {
 
     this.tempServ.getTemps().subscribe((res: any) => {
 
-      const garageData = res['history'][0]['claustial1'];
 
       res['history'].forEach(element => {
         var property = Object.keys(element)[0];
         const garageData = element[property];
+        if(garageData.length > 0)
+        {
         const garageLabels = garageData.map((row: any) => {
           const currentDate = new Date(row.time_logged)
           return this.dayArray[currentDate.getDay()] + ' ' + this.formatAMPM(currentDate);
@@ -59,11 +60,10 @@ export class AppComponent {
         const garageHumidtyValues = garageData.map((row: any) => {
           return row.humidity;
         });
-        const lastReading = garageData.pop();
+        const lastReading = garageData[garageData.length -1];
         const lastTemp = this.convertToF(lastReading.temp);
-        console.log("GARAGE DATA: " + JSON.stringify(garageData))
+
         const lastHum = lastReading.humidity;
-        console.log("TEMP: " + lastTemp);
         // const labels = this.res;
         this.data.push({
           'label': property,
@@ -88,7 +88,7 @@ export class AppComponent {
               }]
           }
         });
-
+      }
       });
 
       this.options = {
@@ -112,6 +112,7 @@ export class AppComponent {
       }
 
     });
+    
 
 
   }

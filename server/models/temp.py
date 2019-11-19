@@ -39,7 +39,7 @@ class TempLogModel(db.Model):
 
     @classmethod
     def find_all(cls):
-        comparisonDate = datetime.now() - timedelta(days=5)
+        comparisonDate = datetime.now() - timedelta(days=3)
         data = []
         groups = cls.query.group_by(cls.source_id)
         
